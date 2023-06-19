@@ -1,0 +1,52 @@
+/* SignUpPage.css */
+
+.signup-page {
+    width: 300px;
+    margin: auto;
+    padding: 70px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-image: url("https://res.cloudinary.com/purnesh/image/upload/w_1080,f_auto/gyms-header.jpg");
+  }
+  
+  h2 {
+    text-align: center;
+    color: rgb(221, 54, 54);
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type='text'],
+  input[type='email'],
+  input[type='password'] {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  

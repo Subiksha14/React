@@ -1,0 +1,52 @@
+/* LoginPage.css */
+
+.login-page {
+  width: 300px;
+  margin: auto;
+  padding: 200px;
+  border: 1px solid #ccc;
+  background-image: url("https://www.kingsbridgeestates.co.uk/wp-content/uploads/2022/06/The-Gym-Group-4-e1654597673493-1024x683.jpg");
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type='email'],
+input[type='password'] {
+  width: 100%;
+  padding: 5px;
+  font-size: 20px;
+  color: white;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
